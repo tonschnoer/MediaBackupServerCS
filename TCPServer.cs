@@ -86,7 +86,7 @@ class TCPServer
         // wait for answer from Client
         while (true)
         {
-            Console.Write(":");
+            Console.Write("::");
             bytesRead = clientStream.Read(receivedData, 0, 32768);
             if (bytesRead == 0) break;
         }
